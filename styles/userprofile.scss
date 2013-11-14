@@ -1,0 +1,109 @@
+@import url(http://weloveiconfonts.com/api/?family=typicons);
+
+$black: #444444;
+$black1: lighten($black, 10%);
+$black2: lighten($black, 20%);
+$black3: lighten($black, 30%);
+$black5: lighten($black, 50%);
+$black6: lighten($black, 60%);
+$black7: lighten($black, 70%);
+$black8: lighten($black, 80%);
+$black9: lighten($black, 90%);
+$black0: lighten($black, 100%);
+
+$blue1: #52edc7;
+$blue2: #5ac8fb;
+
+// $pad: 25px;
+// $serif: georgia, serif;
+// $sans-serif: helvetica, sans-serif;
+$font-icon: "fontello";
+
+* {
+  margin: 0;
+  padding: 0;
+  // box-sizing:border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background: $black6;
+  // font-family: $serif;
+}
+
+.wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  // translate(-50%, -50%);
+  width: 90%;
+  max-width: 300px;
+  background: $black0;
+  box-shadow: (0px 0px 50px $black);
+}
+
+.cover {
+  border-radius: 7px;
+  // width: 700px;
+  width: 210px;
+  // left: -60px;
+  // top: 0px;
+  left: 180px;
+  top: 20px;
+  position: relative;
+  height: 250px;
+  // background: url("https://scontent-a.xx.fbcdn.net/hphotos-ash2/379833_2470486410143_1341175300_n.jpg");
+  // background: url("https://scontent-a.xx.fbcdn.net/hphotos-frc3/1045249_10200395045707350_69276908_n.jpg");
+  background: url("https://github.com/tylerphillips/tylerphillips.github.io/blob/master/app/images/tylerphillips.jpg?raw=true");
+  background-size: cover;
+  color: $black0;
+  h1 {
+    display: none;
+    position: absolute;
+    border-radius: 7px;
+    top: -8%;
+    left: 0%;
+    // @include translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    background: rgba($black, 0.5);
+    // font-family: $sans-serif;
+    line-height: 5.5;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  &:hover {
+    cursor: pointer;
+    h1 {
+      display: block;
+    }
+  }
+}
+
+.m {
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  // translate(-50%, -50%);
+  height: 100px;
+  width: 100px;
+  border: 5px $black0 solid;
+  border-radius:50px;
+  background-image: (linear-gradient($blue1, $blue2));
+  color: $black0;
+  text-align: center;
+  // font-size: 4rem;
+  line-height: 1.5;
+  .typicons-user:before {
+    font-family: "Typicons";
+  }
+}
+
+p {
+  // margin: 45px $pad $pad;
+  // padding-top: $pad;
+  // font-size: 1rem;
+}
