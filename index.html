@@ -12,7 +12,12 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <link rel="stylesheet" href="styles/e8fba5e1.main.css">
+        <!-- build:css(.tmp) styles/main.css -->
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/newstyle.css">
+     
+
+        <!-- endbuild -->
         <!-- endbuild -->
         <link href="http://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" type="text/css">
        <link href="http://fonts.googleapis.com/css?family=Poller+One|Arizonia" rel="stylesheet" type="text/css">
@@ -79,27 +84,22 @@
                         <a href="#aboutme" class="more">Want to get to know me better?</a>
                         <div>
 
-                        
-                    
-                    
-
-                
-                <div class="fin-div project-div">
-                    <div class="contain">
-                        <a href="http://tylerphillips.github.io/final-project/" class="project-link">
-                            <img src="images/66cd0711.MacBookSpotify.png" class="spotify-image project-image">
+                    <div class="chat-div project-div">
+                        <div class="contain">
+                        <a href="http://tylerphillips.github.io/chat-program/" class="project-link">
+                            <img src="images/MacBookChat.png" class="chat-image project-image">
                         </a>
                             <div class="project-description">
-                                <div class="spotify-title project-title">Spotify Visual Lyrics</div>
-                                <div class="spotify-text project-sum">Spotify Visual Lyrics is an open-source project that will enhance your experience as you listen to music. Enjoy as Google image search randomly finds pictures based off lyrics of the song playing.</div>
-                                </div>
+                                <div class="chat-title project-title">Git-Smack Chat Program</div>
+                                <div class="chat-text project-sum">This project was chat application built using Parse. It was a weekend hackathon and was built as part of a team of three. Not only was it an excercise in hooking a webapp up to Parse, it was also an excercise in teamwork.</div>
+                            </div>
+                        </div>
                     </div>
-                </div>
 
                     <div class="lum-div project-div">
                         <div class="contain">
                         <a href="https://github.com/tylerphillips/responsive-hw" class="project-link">
-                            <img src="images/3455c4fe.MacBookLum.png" class="lum-image project-image">
+                            <img src="images/MacBookLum.png" class="lum-image project-image">
                         </a>
                             <div class="project-description lum-description">
                                 <div class="lum-title project-title">Responsive CSS Practice</div>
@@ -111,7 +111,7 @@
                     <div class="mobber-div project-div">
                         <div class="contain">
                         <a href="https://github.com/tylerphillips/mobber3" class="project-link">
-                            <img src="images/3289e76a.MacBookMobber.png" class="mobber-image project-image">
+                            <img src="images/MacBookMobber.png" class="mobber-image project-image">
                         </a>
                             <div class="project-description">
                                 <div class="mobber-title project-title">Mobber Practice CSS</div>
@@ -120,22 +120,11 @@
                         </div>
                     </div>
 
-                    <div class="chat-div project-div">
-                        <div class="contain">
-                        <a href="http://pickra.github.io/chat-program/" class="project-link">
-                            <img src="images/feb0c284.MacBookChat.png" class="chat-image project-image">
-                        </a>
-                            <div class="project-description">
-                                <div class="chat-title project-title">Git-Smack Chat Program</div>
-                                <div class="chat-text project-sum">This project was chat application built using Parse. It was a weekend hackathon and was built as part of a team of three. Not only was it an excercise in hooking a webapp up to Parse, it was also an excercise in teamwork.</div>
-                            </div>
-                        </div>
-                    </div>
 
                     <div class="match-div project-div">
                         <div class="contain">
                         <a href="http://alisonelizabeth.github.io/matchmakerApp/" class="project-link">
-                            <img src="images/9feca9ab.MacBookMatch.png" class="match-image project-image">
+                            <img src="images/MacBookMatch.png" class="match-image project-image">
                         </a>
                             <div class="project-description">
                                 <div class="match-title project-title">Celebrity Matchmaker</div>
@@ -144,14 +133,26 @@
                         </div>
                     </div>
 
+                <div class="fin-div project-div">
+                    <div class="contain">
+                        <a href="http://tylerphillips.github.io/final-project/" class="project-link">
+                            <img src="images/MacBookSpotify.png" class="spotify-image project-image">
+                        </a>
+                            <div class="project-description">
+                                <div class="spotify-title project-title">Spotify Visual Lyrics</div>
+                                <div class="spotify-text project-sum">Spotify Visual Lyrics is an open-source project that will enhance your experience as you listen to music. Enjoy as Google image search randomly finds pictures based off lyrics of the song playing.</div>
+                                </div>
+                    </div>
+                </div>
+
                     <a name="aboutme">
                         <div class="about-div project-div">
                             <div class="contain">
 
-                            <!-- <img src="images/c230527d.tylerphillips.jpg" class="about-img"> -->
-                            <!-- <img src="images/0573cd95.profile.jpg" class="about-img"> -->
-                            <img src="images/0fd10936.ProfPiccopy.jpg" class="about-img">
-                            <!-- <img src="images/74f9d026.profile2.jpg" class="about-img"> -->
+                            <!-- <img src="images/tylerphillips.jpg" class="about-img"> -->
+                            <!-- <img src="images/profile.jpg" class="about-img"> -->
+                            <img src="images/ProfPiccopy.jpg" class="about-img">
+                            <!-- <img src="images/profile2.jpg" class="about-img"> -->
 
                         
                         
@@ -165,11 +166,18 @@
                             </p>
 
 
-                            <p class="about-text about-color">Learning how to write code has been an experience unlike anything else. It wasn't simply learning a new skill. It was a learning a new way of thinking. I learned to look at all areas of the problem and analyze them before making a decision. This new way of thinking has taught me to look at all problems differently, whether they involve programming or everyday life.</p>
+                            <p class="about-text about-color">Learning how to write code has been an experience unlike anything else. It wasn't simply learning a new skill. It was a learning a new way of thinking. I learned to look at all areas of the problem and analyze them before making a decision. This new way of thinking has taught me to look at all problems differently, whether they involve programming or everyday life.
+                            </p>
                             
                             <p class="about-color">As I move forward, I'm excited to continue to grow, learn and continue to improve upon my thinking and problem solving abilities.</p>
+                            <!-- <p class="report-text">If you want to know a little bit more about how I work, check out my <a href="http://osrc.dfm.io/tylerphillips" class="report">Open Source Report Card.</a></p> -->
+                            
 
 
+                            
+                            
+
+                            <p>
                             
                             <a href="https://www.facebook.com/tylerfphillips"><i class="ss-icon about-icon facebook-about">facebook</i></a>
 
@@ -182,6 +190,8 @@
                             <a href="https://github.com/tylerphillips"><i class="ss-icon about-icon github-about">githuboctocat</i></a>
 
                             <a href="https://tyler-phillips.com"><i class="ss-icon about-icon wordpress-about">wordpress</i></a>
+
+                        </p>
                         </div>
                     </div>
 
@@ -199,7 +209,11 @@
         
 
 
-        <script src="scripts/1137e1f5.vendor.js"></script>
+        <!-- build:js scripts/vendor.js -->
+        <!-- bower:js -->
+        <script src="bower_components/jquery/jquery.js"></script>
+        <!-- endbower -->
+        <!-- endbuild -->
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
@@ -211,8 +225,24 @@
             ga('create','UA-45799100-1');ga('send','pageview');
         </script>
 
-        <script src="scripts/d41d8cd9.main.js"></script>
+        <!-- build:js scripts/main.js -->
+        <script src="scripts/main.js"></script>
 
-        <script src="scripts/d49d1209.plugins.js"></script>
+        <!-- endbuild -->
+
+        <!-- build:js scripts/plugins.js -->
+        <script src="bower_components/sass-bootstrap/js/affix.js"></script>
+        <script src="bower_components/sass-bootstrap/js/alert.js"></script>
+        <script src="bower_components/sass-bootstrap/js/dropdown.js"></script>
+        <script src="bower_components/sass-bootstrap/js/tooltip.js"></script>
+        <script src="bower_components/sass-bootstrap/js/modal.js"></script>
+        <script src="bower_components/sass-bootstrap/js/transition.js"></script>
+        <script src="bower_components/sass-bootstrap/js/button.js"></script>
+        <script src="bower_components/sass-bootstrap/js/popover.js"></script>
+        <script src="bower_components/sass-bootstrap/js/carousel.js"></script>
+        <script src="bower_components/sass-bootstrap/js/scrollspy.js"></script>
+        <script src="bower_components/sass-bootstrap/js/collapse.js"></script>
+        <script src="bower_components/sass-bootstrap/js/tab.js"></script>
+        <!-- endbuild -->
 </div></div></body>
 </html>
